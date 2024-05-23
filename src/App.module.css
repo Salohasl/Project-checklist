@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100vw;
+}
+.title{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+}
+.input{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
